@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ezhilventhan Kulandaivel | Data Science Portfolio</title>
+  <meta name="description" content="Portfolio of Ezhilventhan Kulandaivel, a Data Science graduate student at UAB working on analytics, machine learning, computer vision, and business intelligence.">
+  <meta name="author" content="Ezhilventhan Kulandaivel">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ezhilventhan Kulandaivel | Data Science Portfolio">
+  <meta property="og:description" content="Data Science graduate student building dashboards, data pipelines, and machine learning projects with Python and SQL.">
+  <meta name="theme-color" content="#5b3fc4">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%235b3fc4'/%3E%3Ctext x='32' y='42' font-size='28' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EEK%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    /* Apply the saved theme before the page paints, so there is no flash. */
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Ezhilventhan Kulandaivel, back to top">EK</a>
+
+      <nav class="nav" id="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark mode">
+          <span aria-hidden="true" class="theme-icon">&#9790;</span>
+        </button>
+        <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+          <span aria-hidden="true">&#9776;</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Data Science &bull; Analytics &bull; Machine Learning</p>
+          <h1>Hi, I'm Ezhilventhan Kulandaivel</h1>
+          <p class="lead">
+            A Data Science graduate student at the University of Alabama at Birmingham. I build dashboards,
+            data pipelines, and machine learning projects in Python and SQL, and I care about getting the numbers right.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#resume">Download Resume</a>
+          </div>
+          <p class="social-row">
+            <a href="mailto:ezhilventhan1410@gmail.com">Email &#8599;</a>
+            <a href="https://www.linkedin.com/in/ezhilventhan1410" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a>
+          </p>
+        </div>
+
+        <aside class="profile-card" aria-label="Quick facts">
+          <div class="avatar" aria-hidden="true">EK</div>
+          <h2>Ezhilventhan Kulandaivel</h2>
+          <p class="role">Master's Student in Data Science</p>
+          <dl>
+            <div><dt>Location</dt><dd>Birmingham, Alabama</dd></div>
+            <div><dt>University</dt><dd>University of Alabama at Birmingham</dd></div>
+            <div><dt>Focus</dt><dd>Data Analytics &amp; Machine Learning</dd></div>
+          </dl>
+          <a class="btn btn-primary btn-block" href="#contact">Let's Connect</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="eyebrow">About me</p>
+        <h2 class="section-title">Building useful solutions from data</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm finishing my Master's in Data Science at the University of Alabama at Birmingham (expected December 2026),
+              after a Bachelor's in Computer Applications with a specialization in Artificial Intelligence and Data Science.
+            </p>
+            <p>
+              My projects range from a real-time traffic analytics system built on computer vision, to an anomaly detection
+              framework for credit card transactions, to a KPI dashboard for e-commerce sales. Across all of them, the part I
+              enjoy most is the careful work in the middle: cleaning data, checking it, and turning it into something a person
+              can use to make a decision.
+            </p>
+          </div>
+
+          <ul class="stats" aria-label="At a glance">
+            <li><span class="stat-num">4</span><span class="stat-label">Featured projects</span></li>
+            <li><span class="stat-num">3</span><span class="stat-label">IBM certificates</span></li>
+            <li><span class="stat-num">Dec 2026</span><span class="stat-label">Expected graduation</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <p class="eyebrow">Technical skills</p>
+        <h2 class="section-title">Tools I use to solve problems</h2>
+
+        <div class="card-grid skills-grid">
+          <article class="card reveal">
+            <span class="card-num">01</span>
+            <h3>Programming &amp; Data</h3>
+            <ul class="tags"><li>Python</li><li>SQL</li><li>Pandas</li><li>NumPy</li><li>MySQL</li></ul>
+          </article>
+          <article class="card reveal">
+            <span class="card-num">02</span>
+            <h3>Analytics &amp; Reporting</h3>
+            <ul class="tags"><li>Excel</li><li>Pivot Tables</li><li>Power BI</li><li>KPI Development</li><li>Trend Analysis</li><li>Data Quality Verification</li></ul>
+          </article>
+          <article class="card reveal">
+            <span class="card-num">03</span>
+            <h3>Machine Learning</h3>
+            <ul class="tags"><li>PCA</li><li>SVD</li><li>K-Means</li><li>Anomaly Detection</li><li>Model Evaluation</li></ul>
+          </article>
+          <article class="card reveal">
+            <span class="card-num">04</span>
+            <h3>Computer Vision &amp; Apps</h3>
+            <ul class="tags"><li>YOLOv8</li><li>OpenCV</li><li>FastAPI</li><li>Streamlit</li><li>JavaFX</li><li>Matplotlib</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow">Featured projects</p>
+        <h2 class="section-title">Selected work</h2>
+        <p class="section-intro">
+          Projects across analytics, machine learning, computer vision, databases, and dashboard design.
+        </p>
+
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button type="button" class="chip is-active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="chip" data-filter="ml" aria-pressed="false">Machine Learning</button>
+          <button type="button" class="chip" data-filter="bi" aria-pressed="false">Analytics &amp; BI</button>
+        </div>
+
+        <div class="project-list" id="project-list">
+
+          <article class="project reveal" data-cat="ml">
+            <div class="project-head">
+              <p class="project-cat">Computer Vision &bull; Data Engineering</p>
+              <p class="project-date">Feb 2026 &ndash; Apr 2026</p>
+            </div>
+            <h3>Traffic Monitoring Drone System</h3>
+            <p>
+              A real-time traffic analytics platform that processes drone footage to detect, track, and count vehicles.
+              It produces insights on vehicle volume, congestion, and illegal turns, stores results in MySQL, and shows them
+              on a JavaFX dashboard.
+            </p>
+            <ul class="bullets">
+              <li>Used YOLOv8 and OpenCV to detect, track, and count vehicles from drone footage.</li>
+              <li>Designed a MySQL data pipeline for traffic and violation data.</li>
+              <li>Connected the model, backend, database, and dashboard with FastAPI.</li>
+            </ul>
+            <ul class="tags"><li>Python</li><li>YOLOv8</li><li>OpenCV</li><li>FastAPI</li><li>MySQL</li><li>JavaFX</li></ul>
+          </article>
+
+          <article class="project reveal" data-cat="ml">
+            <div class="project-head">
+              <p class="project-cat">Machine Learning &bull; Risk Analysis</p>
+              <p class="project-date">Feb 2025 &ndash; Apr 2025</p>
+            </div>
+            <h3>Credit Card Anomaly Detection</h3>
+            <p>
+              An unsupervised learning framework for spotting potentially fraudulent credit card transactions in
+              high-dimensional financial data, where there were no fraud labels to train against.
+            </p>
+            <ul class="bullets">
+              <li>Applied PCA and SVD for dimensionality reduction and pattern discovery.</li>
+              <li>Used K-Means clustering to separate normal transaction behavior from anomalies.</li>
+              <li>Compared unsupervised approaches for fraud detection and risk analysis.</li>
+            </ul>
+            <ul class="tags"><li>Python</li><li>PCA</li><li>SVD</li><li>K-Means</li></ul>
+          </article>
+
+          <article class="project reveal" data-cat="bi">
+            <div class="project-head">
+              <p class="project-cat">Business Intelligence &bull; Dashboard</p>
+              <p class="project-date">Jun 2026</p>
+            </div>
+            <h3>E-Commerce Sales Analytics Dashboard</h3>
+            <p>
+              An interactive Excel dashboard for analyzing sales performance, customer behavior, product trends,
+              and delivery metrics.
+            </p>
+            <ul class="bullets">
+              <li>Built KPI reporting and PivotTable analyses to support business decisions.</li>
+              <li>Cleaned and transformed the sales data before any visualization work.</li>
+              <li>Designed the dashboard so a non-technical reader can find answers quickly.</li>
+            </ul>
+            <ul class="tags"><li>Excel</li><li>PivotTables</li><li>Dashboards</li><li>KPI Reporting</li></ul>
+          </article>
+
+          <article class="project reveal" data-cat="bi">
+            <div class="project-head">
+              <p class="project-cat">Data Analytics &bull; Application</p>
+              <p class="project-date">Dec 2023 &ndash; Apr 2024</p>
+            </div>
+            <h3>Data Analysis Chatbot</h3>
+            <p>
+              A Python data-analysis application that helps people view and understand their data through a simple,
+              interactive interface, built for users who are not technical.
+            </p>
+            <ul class="bullets">
+              <li>Built the interactive interface with Python and Streamlit.</li>
+              <li>Used Pandas for data cleaning and manipulation.</li>
+              <li>Kept the tool simple so new users could pick it up quickly.</li>
+            </ul>
+            <ul class="tags"><li>Python</li><li>Streamlit</li><li>Pandas</li><li>Data Cleaning</li></ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section alt" id="education">
+      <div class="container">
+        <p class="eyebrow">Education &amp; certifications</p>
+        <h2 class="section-title">Academic background</h2>
+
+        <ol class="timeline">
+          <li class="reveal">
+            <p class="years">Jan 2025 &ndash; Dec 2026</p>
+            <h3>Master of Science in Data Science</h3>
+            <p class="muted">University of Alabama at Birmingham &bull; Current GPA: 3.2</p>
+          </li>
+          <li class="reveal">
+            <p class="years">Sep 2021 &ndash; Sep 2024</p>
+            <h3>Bachelor of Computer Applications, Artificial Intelligence &amp; Data Science</h3>
+            <p class="muted">Dr. M.G.R. Educational and Research Institute &bull; GPA: 7.9/10</p>
+          </li>
+        </ol>
+
+        <h3 class="subhead">IBM Cognitive Class certificates</h3>
+        <ul class="cert-grid">
+          <li class="reveal"><strong>Introduction to Python</strong><span>Jun &ndash; Jul 2023</span></li>
+          <li class="reveal"><strong>Data Visualization</strong><span>Jun &ndash; Jul 2023</span></li>
+          <li class="reveal"><strong>Cloud Application</strong><span>Jun &ndash; Jul 2023</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section" id="resume">
+      <div class="container">
+        <p class="eyebrow">Resume</p>
+        <h2 class="section-title">Download my resume</h2>
+        <p class="section-intro">I keep two versions, so pick the one closest to the role you have in mind.</p>
+
+        <div class="resume-grid">
+          <article class="card reveal">
+            <h3>Data Analyst | Business Intelligence</h3>
+            <p class="muted">SQL, Excel, Power BI, KPI reporting, data quality, and dashboards.</p>
+            <a class="btn btn-primary" href="assets/resume/Ezhilventhan_Kulandaivel_Data_Analyst_Resume.pdf" download>Download PDF</a>
+          </article>
+          <article class="card reveal">
+            <h3>Data Scientist | Machine Learning</h3>
+            <p class="muted">Python, anomaly detection, computer vision, and model evaluation.</p>
+            <a class="btn btn-primary" href="assets/resume/Ezhilventhan_Kulandaivel_Data_Scientist_Resume.pdf" download>Download PDF</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section alt" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h2 class="section-title">Let's connect</h2>
+          <p>
+            I'm looking for data analyst, data science, machine learning, and healthcare data opportunities where I can
+            contribute, learn, and grow. If you have a role or a project in mind, I'd like to hear about it.
+          </p>
+          <ul class="contact-list">
+            <li><span>Email</span><a href="mailto:ezhilventhan1410@gmail.com">ezhilventhan1410@gmail.com</a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/ezhilventhan1410" target="_blank" rel="noopener noreferrer">linkedin.com/in/ezhilventhan1410</a></li>
+            <li><span>Location</span>Birmingham, Alabama</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <label for="cf-name">Name</label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required>
+
+          <label for="cf-email">Your email</label>
+          <input id="cf-email" name="email" type="email" autocomplete="email" required>
+
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" required></textarea>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-note" id="form-note" role="status">This opens your email app with the message filled in.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>&copy; <span id="year">2026</span> Ezhilventhan Kulandaivel</p>
+      <a href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
